@@ -1,0 +1,5 @@
+metric,value
+threads,18
+wall_seconds,17.11
+cpu_percent,1687%
+max_rss_kib,474984

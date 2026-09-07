@@ -1,0 +1,51 @@
+/* Uses the existing page palette and type. Groups are unarrowed; history is dotted. */
+.strategy-overview { padding-top: 44px; padding-bottom: 44px; }
+.strategy-overview .route-map-title { font-size: clamp(1.8rem,3vw,2.5rem); line-height: 1.2; }
+.strategy-overview .route-map-header { padding-bottom: 20px; gap: 24px; }
+.strategy-overview .route-map-header { align-items: center; }
+.strategy-history-link { white-space: normal; font-size: 14px; }
+.strategy-overview h3 { margin: 0 0 10px; font-size: 21px; line-height: 1.35; }
+.strategy-overview p { margin: 0 0 12px; line-height: 1.7; }
+.strategy-overview p:last-child { margin-bottom: 0; }
+.strategy-problem { border: 1px solid var(--line); padding: 22px 24px; margin-top: 24px; }
+.strategy-label-row { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px 24px; }
+.strategy-scope { color: var(--muted); font-size: 14px; }
+.strategy-shared { margin: 24px 0; padding: 20px 24px; border-left: 4px double var(--teal); background: var(--paper-2); }
+.strategy-kicker { font-size: 13px; font-weight: 750; color: var(--teal); }
+.strategy-directions { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 20px; }
+.strategy-direction { min-width: 0; padding: 24px; border: 1px solid var(--line); background: var(--paper); }
+.strategy-execution { width: fit-content; padding: 3px 9px; color: var(--ink); border: 1px solid var(--muted); font-size: 14px; }
+.strategy-evidence { font-size: 14px; color: var(--muted); }
+.strategy-candidates { margin-top: 18px; border-top: 1px dashed var(--line); padding-top: 12px; }
+.strategy-candidates summary { cursor: pointer; color: var(--teal); font-size: 14px; font-weight: 650; padding: 4px 0; }
+.strategy-candidates ul { padding-left: 22px; font-size: 15px; }
+.strategy-candidates p { font-size: 14px; color: var(--muted); }
+.strategy-methods { margin-top: 24px; padding: 24px; border: 1px solid var(--line); }
+.strategy-methods p + p { font-size: 14px; color: var(--muted); }
+.strategy-line-legend { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px 24px; margin-top: 22px; font-size: 13px; color: var(--muted); }
+.strategy-line-legend > span { display: flex; align-items: center; gap: 10px; }
+.strategy-symbol { flex: 0 0 30px; height: 0; border-top: 1px solid var(--muted); position: relative; }
+.strategy-symbol.group { height: 14px; border: 1px solid var(--muted); }
+.strategy-symbol.history { border-top-style: dotted; }
+.strategy-symbol.candidate { border-top-style: dashed; }
+.strategy-symbol.candidate::after,.strategy-symbol.dependency::after { content: ''; width: 5px; height: 5px; border-top: 1px solid var(--muted); border-right: 1px solid var(--muted); transform: rotate(45deg); position: absolute; top: -3px; right: 0; }
+.strategy-overview a:focus-visible,.strategy-overview summary:focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; }
+.history-record-heading { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line); }
+.history-record-heading h3 { margin: 0 0 8px; font-size: 24px; }
+.history-record-heading p { margin: 0 0 8px; font-size: 14px; color: var(--muted); }
+.history-record-heading a { font-size: 14px; }
+#route-map .tree-root::after,#route-map .tree-row::before { border-left: 1px dotted var(--muted); }
+#route-map .tree-branch::before { border-top: 1px dotted var(--muted); }
+#route-map [id] { scroll-margin-top: 100px; }
+.route-preview-read { margin-top: 12px !important; font-size: 14px !important; }
+@media (max-width: 700px) {
+  .strategy-directions,.strategy-line-legend { grid-template-columns: minmax(0,1fr); }
+  .strategy-direction,.strategy-problem,.strategy-shared,.strategy-methods { padding: 18px; }
+  .strategy-overview h3 { font-size: 20px; }
+  .strategy-overview p { overflow-wrap: anywhere; }
+}
+@media print {
+  .strategy-directions { display: block; }
+  .strategy-direction { margin-bottom: 16px; break-inside: avoid; }
+  .strategy-history-link { display: none; }
+}

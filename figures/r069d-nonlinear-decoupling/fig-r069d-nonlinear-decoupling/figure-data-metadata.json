@@ -1,0 +1,29 @@
+{
+  "certificateCommit": "d0562f7a8e7046e30df59fb4b959adc6044d64d6",
+  "checksPassed": 18,
+  "checksTotal": 18,
+  "claimBoundary": "exact Banach-space nonlinear perturbation theorem around a boundedly invertible critical linearization; not an unconditional large-data continuation or Navier-Stokes regularity theorem",
+  "dimensionlessPrefactors": [
+    "1",
+    "100",
+    "10000",
+    "1000000"
+  ],
+  "firstStrictlyAdmissibleDepths": {
+    "1": 1,
+    "100": 21,
+    "10000": 41,
+    "1000000": 62
+  },
+  "inputCertificate": {
+    "location": "research/certificates/r069d/transverse-nonlinear-decoupling.json",
+    "sha256": "ec0aa2e543533c749851aebd4118ab544b2c703105453e822c6b99ff0d6e42c7"
+  },
+  "rhoUpper": "0.7975855452903291",
+  "sourceCommit": "db524282bccb412aed5ccd17b663de63ebdc6581",
+  "status": "passed",
+  "upstreamCertificate": {
+    "location": "research/certificates/r069b/transverse-critical-smallness.json",
+    "sha256": "53ebc36d199ca2b379270c85a842978aab086f7f77d5e4b4f6c32e944c15ce45"
+  }
+}

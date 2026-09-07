@@ -1,0 +1,5 @@
+{"elapsedSeconds": 0.0011852500028908253, "executionHost": "local workstation", "gpu": "not used", "maximumResidentSetMiB": 72.96875, "processes": 1, "stage": "start", "timestampUtc": "2026-08-31T04:06:01.307212+00:00"}
+{"elapsedSeconds": 0.0021518750581890345, "executionHost": "local workstation", "gpu": "not used", "maximumResidentSetMiB": 73.140625, "processes": 1, "stage": "source-data", "timestampUtc": "2026-08-31T04:06:01.308463+00:00"}
+{"elapsedSeconds": 0.5030585000058636, "executionHost": "local workstation", "gpu": "not used", "maximumResidentSetMiB": 129.140625, "processes": 1, "stage": "rendered", "timestampUtc": "2026-08-31T04:06:01.809370+00:00"}
+{"elapsedSeconds": 0.6480006250785664, "executionHost": "local workstation", "gpu": "not used", "maximumResidentSetMiB": 225.625, "processes": 1, "stage": "qa-renders", "timestampUtc": "2026-08-31T04:06:01.954313+00:00"}
+{"elapsedSeconds": 0.6643278340343386, "executionHost": "local workstation", "gpu": "not used", "maximumResidentSetMiB": 225.78125, "processes": 1, "stage": "complete", "timestampUtc": "2026-08-31T04:06:01.970639+00:00"}

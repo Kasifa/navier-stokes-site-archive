@@ -1,0 +1,3 @@
+# Figure caption
+
+**R0.74S — paid-branch deletion leaves one shared residual best-\(N\) gate.** Panel A records the exact D-first six-class partition and shows that the four paid classes use a single \(6B_Q\) ledger and a single \(C_5\) cubic ledger. Panel B isolates the two residual mechanisms—short non-\(D\), \(Q\)-small shells and scalar-excess ancestry—and proves \(T/6<r<T/2\) on both; they must share one exception budget. Panel C gives the domain-safe two-sided best-\(N\) reduction, distinguishes the weaker plateau corollary from full Q.12, and marks the fixed universal \(N_0\) residual estimate (S.243) as OPEN. No new PDE packing, regularity, or Millennium conclusion is claimed; prior no-go conclusions remain. **NOT CLAY.**
