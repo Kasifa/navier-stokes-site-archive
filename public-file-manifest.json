@@ -68953,8 +68953,8 @@
     },
     {
       "path": "public/progress/progress.js",
-      "sha256": "a2e55293d63d60ee4da3185924a20b774f08c6317aa73df8095954ef8418a37f",
-      "bytes": 2161,
+      "sha256": "c52dfa112bb8428115ce9974c0351849e5bf4c5ced6214f72030a8421318bf0e",
+      "bytes": 2273,
       "class": "REVIEWED_SITE_INFRASTRUCTURE",
       "source": {
         "basis": "EXPLICITLY_REVIEWED_MIGRATION_INFRASTRUCTURE"
